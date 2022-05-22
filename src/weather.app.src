@@ -1,6 +1,6 @@
 {application, weather,
- [{description, "An escript"},
-  {vsn, "0.1.0"},
+ [{description, "Weather forecast fetching utility"},
+  {vsn, "0.2.0"},
   {registered, []},
   {applications,
    [kernel,
@@ -11,6 +11,6 @@
   {env,[]},
   {modules, []},
 
-  {licenses, ["Apache 2.0"]},
-  {links, []}
+  {licenses, ["MIT"]},
+  {links, [{"GitHub", "https://github.com/q60/weather"}]}
  ]}.
